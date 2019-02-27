@@ -1,0 +1,225 @@
+/*main css*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    font: 15/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Header*/
+header{
+    background: #3e0363;
+    min-height: 30px;
+    padding-top: 3px;
+    color: yellowgreen;
+    margin-bottom: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.h-container{
+    width: 95%;
+    margin: auto;
+}
+
+header table{
+    width: 100%;
+}
+
+header table tr .t-pic{
+    width: 10px;
+    height: 0px
+}
+
+#pro-pic{
+    width: 54px;
+    border-radius: 50%;
+}
+
+#pro-sect{
+    margin-right: 20px;
+}
+
+#connect-sect{
+    text-align: right;
+    
+}
+
+#connect-sect ul{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+#connect-sect ul li ul li p{
+    margin: 0px 0px 0px 0px;
+}
+
+
+#connect-sect ul li{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/*Sidebar*/
+#side-bar{
+    position: absolute;
+    background: black;
+    color: white;
+    width: 25%;
+    padding-bottom: 100%;
+    margin-top: -15px;
+    margin-left: -40px;
+    text-align: center;
+}
+
+#side-bar ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#side-bar a{
+    text-decoration: none;
+}
+
+.s-group{
+    text-align: center;
+}
+
+.s-header{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+#menu{
+    background: yellowgreen;
+    padding-top: 10px;
+}
+
+/*#templates{
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 4px 114px 4px 114px;
+    background: yellowgreen;
+    margin: auto;
+}
+
+#animations span{
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 4px 110px 4px 110px;
+    background: yellowgreen;
+    margin: auto;
+
+}*/
+
+.s-group ul li{
+    text-align: center;
+}
+
+#side-bar ul li ul{
+    text-align: center;
+    margin-left: -40px;
+    background: #3e0363;
+}
+
+#side-bar ul li ul li a{
+    font-size: 18px;
+    color: rgb(41, 155, 7);
+}
+
+#side-bar ul li ul li:hover{
+    background: /*rgb(146, 173, 137)*/ black;
+    color: yellowgreen;
+}
+
+/*content*/
+.rTable {
+    display: block;
+    width: 100%;
+}
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow{
+    clear: both;
+}
+.rTableHead, .rTableFoot{
+    background-color: #DDD;
+    font-weight: bold;
+}
+.rTableCell, .rTableHead {
+    border: 1px solid #999999;
+    float: left;
+    height: 20%;
+    overflow: hidden;
+    padding: 3px 1.8%;
+    width: 20%;
+}
+.rTable:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#content a{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+#content {
+    margin-top: 42px;
+    margin-left: 368px;
+}
+#content .block{
+    content: '';
+    display: block;
+    width: 244px;
+    height: 244px;
+    border: solid darkblue 2px;
+    border-radius: 25%;
+}
+
+#content #box-1{
+    background-image: url(./img/mixzz-screenshot_e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content .for-color{
+    border-radius: 25%;
+}
+
+#content .box-text{
+    text-align: center;
+    position: relative;
+    bottom: -184px;
+    padding-top: 18px;
+    border-top: black 2px solid;
+    font-size: 27px;
+    background-color: rgb(146, 173, 137);
+    border-bottom-left-radius: 76px 75px;
+    border-bottom-right-radius: 76px 75px;
+}
+
+/*rainbow effect*/
