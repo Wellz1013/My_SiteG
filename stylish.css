@@ -165,7 +165,7 @@ header table tr .t-pic{
     font-weight: bold;
 }
 .rTableCell, .rTableHead {
-    border: 1px solid #999999;
+
     float: left;
     height: 20%;
     overflow: hidden;
@@ -194,7 +194,7 @@ header table tr .t-pic{
 #content .block{
     content: '';
     display: block;
-    width: 244px;
+    width: 106%;
     height: 244px;
     border: solid darkblue 2px;
     border-radius: 25%;
