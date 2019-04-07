@@ -1,0 +1,47 @@
+body {
+    background: darkblue;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#timeIt {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 800;
+    padding-top: 10%;
+    color: brown;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.button {
+    display: block;
+    /* padding: 1%; */
+    padding: 2% 5% 2% 5%;
+    background-color: darkred;
+    border-radius: 10%;
+    color: white;
+    display: inline;
+    margin: 0px 10px 0px 10px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#txt-box{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#setIt{
+    margin-top: 3%;
+}
+
+#addUp{
+
+}

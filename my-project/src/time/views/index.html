@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Time</title>
+    <meta charset="utf-8">
+    <!-- Standard Coder Includes -->
+    <script src="./main.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="interate()">
+    <div id='timeIt'></div>
+    <div id="buttons">
+        <div class="button" id="btnclock" onclick="setMode('clock')">Clock</div>
+        <div class="button" id="timer" onclick="setMode('timer')">Timer</div>
+        <div class="button" id="stopwatch" onclick="setMode('stopwatch')">Stopwatch</div>
+    </div>
+    <div id="txt-box">
+        <div>Hours: <input type="text" id="hour-box"/></div>
+        <div>Minutes: <input type="text" id="minute-box"/></div>
+        <div>Seconds: <input type="text" id="second-box"/></div>
+        <div id="setIt"></div>
+        <div class="button" id="addUp" onclick="addS(); addM(); addH();">Set Timer</div>
+    </div>
+</body>
+</html>

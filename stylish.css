@@ -1,4 +1,5 @@
 /*main css*/
+/*rainbow effect is separate*/
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -191,6 +192,7 @@ header table tr .t-pic{
     margin-top: 42px;
     margin-left: 24%;
 }
+
 #content .block{
     content: '';
     display: block;
@@ -202,6 +204,12 @@ header table tr .t-pic{
 
 #content #box-1{
     background-image: url(./img/mixzz-screenshot_e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content #box-2{
+    background-image: url(./img/time-screenshot_e.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -222,4 +230,4 @@ header table tr .t-pic{
     border-bottom-right-radius: 76px 75px;
 }
 
-/*rainbow effect*/
+
